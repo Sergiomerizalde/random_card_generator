@@ -13,17 +13,32 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid text-center" style="background-color: grey;">
+      <div class="card mx-auto h-200" style="width: 20rem; height: 30rem;">
+        <div class="card-body">
+          <!-- Esto es para poder generar el primer icono de la tarjeta -->
+          <div class="row">
+            <div class="position-absolute top-0 start-0 d-flex flex-row">
+              <script>
+                suiterandom();
+              </script>  
+            </div>
+          </div>
+          <!-- Esto es para generar el numero de la tarjeta -->
+          <div class="row">
+            <div class="position-absolute top-50 start-40">
+              <p>Hello</p>
+            </div>
+          </div>
+          <!-- Esto es para poder generar el segundo icono de la tarjeta -->
+          <div class="row">
+            <div class="position-absolute bottom-0 end-0 d-flex flex-row-reverse">
+              <p>Test 2</p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
